@@ -10,24 +10,25 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-direction: column;
             height: 100vh;
             background-color: #f4f4f4;
             font-family: Arial, sans-serif;
             text-align: center;
         }
-        .center-content {
-            max-width: 90%;
-        }
         .logo {
-            max-width: 500px;
+            max-width: 100px;
             height: auto;
+        }
+        .message {
+            font-size: 1.5rem;
+            color: #333;
+            margin-top: 10px;
         }
     </style>
 </head>
 <body>
-    <div class="center-content">
-        <img src="img/khynd.png" alt="Logo" class="logo">
-        <h3> Wait some time we will back!</h3>
-    </div>
+    <img src="img/khynd.png" alt="Logo" class="logo">
+    <p class="message">We will back soon!</p>
 </body>
 </html>
